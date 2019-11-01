@@ -8,7 +8,7 @@ fi
 
 export ANDROID_HOME=/home/jenkins
 
-git clone https://github.com/WycliffeAssociates/translationExchange && git clone https://github.com/wycliffeassociates/translationExchangeAndroid
+git clone https://github.com/WycliffeAssociates/translationExchange && git clone -b dan-cache https://github.com/wycliffeassociates/translationExchangeAndroid
 
 # Repo dir
 cd ./translationExchange
