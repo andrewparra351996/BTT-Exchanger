@@ -30,6 +30,8 @@ cp -r ./build ../translationExchangeAndroid/app/src/main/assets/
 
 cd ../translationExchangeAndroid
 
+./gradlew downloadDependencies
+
 docker run --rm -i \
 -v ${PWD}:/project \
 -v $TR_KEY:/key/translationRecorderKey.jks \
